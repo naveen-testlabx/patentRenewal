@@ -1,4 +1,4 @@
-# test-automation-ecohotels
+# test-automation-patentRenewal
 
 -ea -Dbrowserstack.accesskey=ACCESSKEY -Dbrowserstack.username=USERNAME in the run config
 
