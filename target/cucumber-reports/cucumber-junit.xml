@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="31.209">
+<testcase classname="Home Page Verification for patent renewal" name="Verify Landing Page" time="30.912">
+<failure message="&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Thors-MacBook-Pro.local', ip: 'fe80:0:0:0:1495:d735:e9e4:10b9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '11.0.19'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.6.1, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21G83, safari:platformVersion: 12.5.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: d04c1f9cb78e59478f81e9c2fef..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}&#10;Session ID: d04c1f9cb78e59478f81e9c2fefa91aa3c923618&#10;*** Element info: {Using=id, value=chat-heading-avatar}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given the user spins up the "browser3" browser..............................passed
+When user should be land on home page.......................................passed
+Then user is able to chat with the support team.............................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thors-MacBook-Pro.local', ip: 'fe80:0:0:0:1495:d735:e9e4:10b9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '11.0.19'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.6.1, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21G83, safari:platformVersion: 12.5.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: d04c1f9cb78e59478f81e9c2fef..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: d04c1f9cb78e59478f81e9c2fefa91aa3c923618
+*** Element info: {Using=id, value=chat-heading-avatar}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.isDisplayed(Unknown Source)
+	at pages.LandingPage.chatWithSupport(LandingPage.java:128)
+	at stepDefinitions.LandingPageStepDef.userIsAbleToChatWithTheSupportTeam(LandingPageStepDef.java:33)
+	at ✽.user is able to chat with the support team(file:///Users/vcons/Downloads/test-automation-patentrenewal/src/test/resources/functionalTests/HomePage.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="Home Page Verification for patent renewal" name="Verify Landing Page 2" time="16.923">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class='button-wrap hidden_mobile nav']//a&quot;}&#10;  (Session info: chrome=114.0.5735.91)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Thors-MacBook-Pro.local', ip: 'fe80:0:0:0:1495:d735:e9e4:10b9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '11.0.19'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.91, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c9ccce1503aab4ea3b5a0302bc5...}&#10;Session ID: c9ccce1503aab4ea3b5a0302bc5bea388690b26d&#10;*** Element info: {Using=xpath, value=//div[@class='button-wrap hidden_mobile nav']//a}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given the user spins up the "browser5" browser..............................passed
+And user should be land on home page........................................passed
+When user clicks on Get Started button......................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='button-wrap hidden_mobile nav']//a"}
+  (Session info: chrome=114.0.5735.91)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thors-MacBook-Pro.local', ip: 'fe80:0:0:0:1495:d735:e9e4:10b9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '11.0.19'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.91, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c9ccce1503aab4ea3b5a0302bc5...}
+Session ID: c9ccce1503aab4ea3b5a0302bc5bea388690b26d
+*** Element info: {Using=xpath, value=//div[@class='button-wrap hidden_mobile nav']//a}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.isDisplayed(Unknown Source)
+	at pages.LandingPage.verifyNavigationGetStartedPg(LandingPage.java:149)
+	at stepDefinitions.LandingPageStepDef.userClicksOnGetStartedButton(LandingPageStepDef.java:39)
+	at ✽.user clicks on Get Started button(file:///Users/vcons/Downloads/test-automation-patentrenewal/src/test/resources/functionalTests/HomePage.feature:20)
+]]></failure>
+</testcase>
+</testsuite>

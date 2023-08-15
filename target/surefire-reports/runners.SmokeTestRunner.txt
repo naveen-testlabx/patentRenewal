@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: runners.SmokeTestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.792 s <<< FAILURE! - in runners.SmokeTestRunner
+runners.SmokeTestRunner.runScenario  Time elapsed: 0.746 s  <<< FAILURE!
+commons.exception.FrameworkException: Exception in initializing the web driver
+Caused by: commons.exception.FrameworkException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thors-MacBook-Pro.local', ip: 'fe80:0:0:0:1495:d735:e9e4:10b9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '11.0.19'
+Driver info: driver.version: RemoteWebDriver
+
+runners.SmokeTestRunner.runScenario  Time elapsed: 0.747 s  <<< FAILURE!
+commons.exception.FrameworkException: Exception in initializing the web driver
+Caused by: commons.exception.FrameworkException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thors-MacBook-Pro.local', ip: 'fe80:0:0:0:1495:d735:e9e4:10b9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '11.0.19'
+Driver info: driver.version: RemoteWebDriver
+
